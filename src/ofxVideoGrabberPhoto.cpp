@@ -120,5 +120,5 @@ void ofxVideoGrabberPhoto::execChoiceAlgorithm() {
 }
 
 bool ofxVideoGrabberPhoto::isCaptured() {
-    bool !capturing && mostFinePicture;
+    return !capturing && mostFinePicture;
 }
